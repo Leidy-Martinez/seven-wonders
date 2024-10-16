@@ -2,6 +2,7 @@ import requests
 import time
 
 def get_single_wonder(location):
+    # WARNING!!! DO NOT CHECK IN YOUR API KEYS TO GITHUB
     LOCATIONIQ_API_KEY = "Replace this with your API key"
 
     PATH = "https://us1.locationiq.com/v1/search.php"  
