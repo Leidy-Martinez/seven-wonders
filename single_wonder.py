@@ -9,8 +9,8 @@ def get_single_wonder(location):
 
     query_params = {
       "key": LOCATIONIQ_API_KEY,
-       "q": location, 
-       "format": "json"
+      "q": location, 
+      "format": "json"
     }
 
     response = requests.get(PATH, params=query_params)
